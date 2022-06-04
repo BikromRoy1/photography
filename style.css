@@ -35,6 +35,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
 }
 
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -477,27 +482,122 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     left: -70px;
 }
+
 .featured-items .owl-nav .owl-next {
     position: absolute;
     right: -70px;
 }
+
 .featured-items .owl-nav .owl-prev span,
-.featured-items .owl-nav .owl-next span  {
-  width: 46px;
-  height: 46px;
-  line-height: 46px;
-  font-size: 24px;
-  display: inline-block;
-  color: #fff;
-  background-color: #00bdfe;
-  border-radius: 50%;
-  opacity: 0.75;
-  transition: all .3s;
+.featured-items .owl-nav .owl-next span {
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 24px;
+    display: inline-block;
+    color: #fff;
+    background-color: #00bdfe;
+    border-radius: 50%;
+    opacity: 0.75;
+    transition: all .3s;
 }
+
 .featured-items .owl-nav .owl-prev span:hover,
 .featured-items .owl-nav .owl-next span:hover {
-  opacity: 1;
+    opacity: 1;
 }
+
+
+/*--------------------------------------------------------------
+  # About css 
+  --------------------------------------------------------------*/
+.about .about-caption {
+    margin-bottom: 50px;
+}
+.about .about-caption .section-tittle {
+    margin-bottom: 35px;
+}
+.about .about-caption .section-tittle h2 {
+    font-size: 48px;
+    display: block;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #071112;
+}
+.about .about-caption .about-cap-top {
+    font-size: 20px;
+    color: #071112;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    padding-right: 50px;
+    font-weight: 500;
+}
+.about .about-caption .about-low-cap {
+    font-size: 16px;
+    color:#071112;
+    line-height: 1.6;
+    margin-bottom: 58px;
+    padding-right: 50px;
+}
+
+.black-btn {
+    border: none;
+    padding: 13px 28px !important;
+    text-transform: uppercase !important;
+    border-radius: 0px;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    display: inline-block !important;
+    cursor: pointer;
+    color: #fff !important;
+    display: inline-block;
+    transition: 0.6s;
+    box-shadow: 0px 7px 21px 0px rgba(0,0,0,0.12);
+    background-image: linear-gradient(to left, #FF5F21, #e6571e, #FF5F21);
+    background-position: right;
+    background-size: 200%;
+    border-radius: 5px;
+}
+
+.about .about-right-cap {
+    position: relative;
+}
+.about .about-right-cap .img-cap {
+    position: absolute;
+    background: #FF5F21;
+    width: 197px;
+    height: 180px;
+    padding: 31px 10px ;
+    left: -33px;
+    bottom: -7px;
+    text-align: center;
+}
+.about .about-right-cap .img-cap::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 19px 0px 46px 43px;
+    position: absolute;
+    border-color: transparent transparent #FF5F21 transparent;
+    top: -65px;
+    right: 0;
+}
+.about .about-right-cap .img-cap span {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    display: block;
+}
+.about .about-right-cap .img-cap p {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+
 
 
 
