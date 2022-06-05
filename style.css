@@ -82,7 +82,7 @@ section {
 #header {
     transition: all 0.5s;
     z-index: 997;
-    padding: 15px 0;
+    padding: 10px 0;
     background-color: #00bdfe;
 }
 
@@ -890,6 +890,19 @@ section.popular-categories .main-button {
 }
 
 
+/*--------------------------------------------------------------
+  # INSTAGRAM css 
+  --------------------------------------------------------------*/
+.instagram .single-instagram a {
+    display: block;
+}
+.instagram .single-instagram img {
+    width: 100%;
+    border-radius: 5px;
+}
+.instagram .single-instagram {
+    margin-top: 30px;
+}
 
 /*--------------------------------------------------------------
   # blogs css 
